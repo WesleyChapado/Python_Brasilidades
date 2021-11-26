@@ -1,5 +1,4 @@
-from Cpf import Cpf
+from cpf import Cpf
 
-cpf = 12312312312
-
-objeto_cpf = Cpf(cpf)
+cpf_um = Cpf("41593604831")
+print(cpf_um)
