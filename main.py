@@ -1,9 +1,11 @@
-from cpf_cnpj import Documento
+import re
 
-exemplo_cnpj = "35379838000112"
-exemplo_cpf = "41593604831"
+from TelefonesBr import TelefonesBr
 
-documento1 = Documento.cria_documento(exemplo_cpf)
-documento2 = Documento.cria_documento(exemplo_cnpj)
-print(documento1)
-print(documento2)
+telefone = "551796524085"
+
+telefone_objeto = TelefonesBr(telefone)
+print(telefone_objeto)
+#padrao = "([0-9]{2,3})([0-9]{2})([0-9]{4,5})([0-9]{4})"
+#resposta = re.findall(padrao, telefone)
+#print(resposta)
