@@ -3,4 +3,4 @@ from datas_br import DatasBr
 
 data = DatasBr()
 
-print(data.dia_semana())
+print(data.tempo_cadastro())
