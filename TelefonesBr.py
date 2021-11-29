@@ -33,6 +33,6 @@ class TelefonesBr:
 # *	Marca nenhuma, uma ou mais ocorrências	sol*
 # {}	Quantidade de repetições de uma ocorrência definida	[abc]{5}
 # \d	Qualquer número de 0 até 9	\d{3,4}
-# \w	Qualquer número de a té 9 letra de a até z ou _	\w{10}
+# \w	Qualquer número de 0 até 9 letra de a até z ou _	\w{10}
 # |	Um ou outro	@$
 # ()	Captura e agrupa	(\w{4})
